@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-ioc",
-  "version": "1.2.1",
-  "description": "Nuxt IOC implementation",
+  "name": "mamby-nuxt-ioc",
+  "version": "1.2.3",
+  "description": "Mamby Nuxt IOC implementation",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mateuszgachowski/nuxt-ioc.git"
+    "url": "git+https://github.com/bnd170/nuxt-ioc.git"
   },
   "keywords": [
     "ioc",
@@ -36,9 +36,9 @@
   "author": "Mateusz Gachowski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mateuszgachowski/nuxt-ioc/issues"
+    "url": "https://github.com/bnd170/nuxt-ioc/issues"
   },
-  "homepage": "https://github.com/mateuszgachowski/nuxt-ioc#readme",
+  "homepage": "https://github.com/bnd170/nuxt-ioc#readme",
   "devDependencies": {
     "@babel/preset-env": "7.12.17",
     "@nuxt/types": "2.14.3",
@@ -60,6 +60,7 @@
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.9.5",
     "vue": "2.6.12",
-    "vue-jest": "3.0.7"
+    "vue-jest": "3.0.7",
+    "vuex": "^4.0.2"
   }
 }
